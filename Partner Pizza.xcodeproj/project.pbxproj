@@ -14,6 +14,8 @@
 		73B74A321E707EEF003B9EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B74A301E707EEF003B9EBA /* LaunchScreen.storyboard */; };
 		73B74A3D1E707EEF003B9EBA /* Partner_PizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B74A3C1E707EEF003B9EBA /* Partner_PizzaTests.swift */; };
 		73B74A481E707EEF003B9EBA /* Partner_PizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B74A471E707EEF003B9EBA /* Partner_PizzaUITests.swift */; };
+		C1ECEED51E70837900479A07 /* IPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEED41E70837900479A07 /* IPizza.swift */; };
+		C1ECEED71E7083D100479A07 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ECEED61E7083D100479A07 /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		73B74A431E707EEF003B9EBA /* Partner PizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Partner PizzaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B74A471E707EEF003B9EBA /* Partner_PizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partner_PizzaUITests.swift; sourceTree = "<group>"; };
 		73B74A491E707EEF003B9EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ECEED41E70837900479A07 /* IPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPizza.swift; sourceTree = "<group>"; };
+		C1ECEED61E7083D100479A07 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				73B74A271E707EEF003B9EBA /* AppDelegate.swift */,
 				73B74A291E707EEF003B9EBA /* ViewController.swift */,
+				C1ECEED41E70837900479A07 /* IPizza.swift */,
+				C1ECEED61E7083D100479A07 /* Pizza.swift */,
 				73B74A2B1E707EEF003B9EBA /* Main.storyboard */,
 				73B74A2E1E707EEF003B9EBA /* Assets.xcassets */,
 				73B74A301E707EEF003B9EBA /* LaunchScreen.storyboard */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1ECEED71E7083D100479A07 /* Pizza.swift in Sources */,
 				73B74A2A1E707EEF003B9EBA /* ViewController.swift in Sources */,
 				73B74A281E707EEF003B9EBA /* AppDelegate.swift in Sources */,
+				C1ECEED51E70837900479A07 /* IPizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +522,7 @@
 				73B74A4E1E707EEF003B9EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B74A4F1E707EEF003B9EBA /* Build configuration list for PBXNativeTarget "Partner PizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				73B74A511E707EEF003B9EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B74A521E707EEF003B9EBA /* Build configuration list for PBXNativeTarget "Partner PizzaUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				73B74A541E707EEF003B9EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
