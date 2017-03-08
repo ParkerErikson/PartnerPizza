@@ -12,5 +12,5 @@ protocol IPizza {
     func addPizzaToQueue(_ pizza : Pizza) -> Void
     func timeUntilReady() -> Int
     func placeOrder(forDelivery delivery : Bool, order : [Pizza]) -> Double //cost of entire order
-    func verifyOrder() -> [String] //list of descriptions of each pizza ordered.
+    func verifyOrder(order: [Pizza]) -> [String] //list of descriptions of each pizza ordered.
 }
