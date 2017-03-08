@@ -46,6 +46,27 @@ class Pizza {
         self.description = "\(size.rawValue) \(crust.rawValue) with \(tops)"
     }
     
+    static func ==(lhs : Pizza, rhs : Pizza) -> Bool {
+        if lhs.size != rhs.size {
+            return false
+        }
+        if lhs.toppings != rhs.toppings {
+            return false
+        }
+        if lhs.sauce != rhs.sauce {
+            return false
+        }
+        if lhs.cost != rhs.cost {
+            return false
+        }
+        if lhs.crust != rhs.crust {
+            return false
+        }
+        if lhs.description != rhs.description {
+            return false
+        }
+        return true
+    }
     
 }
 
