@@ -16,6 +16,7 @@ class ViewController: UIViewController, IPizza  {
     }
     
     var pizzaArray = [Pizza]()
+    let p1 = Pizza(size: .small, crust: .handTossed, toppings: [Toppings(rawValue: "Beef")!], sauce: .white)
     
     func addPizzaToQueue(_ pizza: Pizza) {
         
@@ -27,10 +28,10 @@ class ViewController: UIViewController, IPizza  {
     }
     
     func placeOrder(forDelivery delivery: Bool, order: [Pizza]) -> Double {
-        return 
+        return p1.cost
     }
     
     func verifyOrder() -> [String] {
-       
+        return [p1.description]
     }
 }
