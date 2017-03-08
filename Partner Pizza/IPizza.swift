@@ -14,4 +14,3 @@ protocol IPizza {
     func placeOrder(forDelivery delivery : Bool, order : [Pizza]) -> Double //cost of entire order
     func verifyOrder() -> [String] //list of descriptions of each pizza ordered.
 }
-

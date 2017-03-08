@@ -8,18 +8,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, IPizza  {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    var pizzaArray = [Pizza]()
+    
+    func addPizzaToQueue(_ pizza: Pizza) {
+        
+        pizzaArray.append(pizza)
     }
-
+    
+    func timeUntilReady() -> Int {
+        return 10 * pizzaArray.count
+    }
+    
+    func placeOrder(forDelivery delivery: Bool, order: [Pizza]) -> Double {
+        return 
+    }
+    
+    func verifyOrder() -> [String] {
+       
+    }
 }
-

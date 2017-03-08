@@ -45,8 +45,6 @@ class Pizza {
         }
         self.description = "\(size.rawValue) \(crust.rawValue) with \(tops)"
     }
-    
-    
 }
 
 enum Crust : String {
